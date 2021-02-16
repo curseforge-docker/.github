@@ -1,0 +1,11 @@
+{
+    "name": "Docker Build and Publish Workflow",
+    "description": "Template for building and publishing modpacks to the Docker Hub and to GitHub.",
+    "iconName": "hammer",
+    "categories": [
+        "Shell"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}
