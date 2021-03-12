@@ -5,7 +5,7 @@ on:
     inputs:
       name: 
         description: 'Modpack name'
-        default: true
+        required: true
       version:
         description: 'Modpack version'
         required: true
