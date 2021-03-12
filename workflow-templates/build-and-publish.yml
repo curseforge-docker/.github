@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     env:
-      NAME: all-the-mods-6
+      NAME: ${{ github.event.inputs.name }}
       VERSION: ${{ github.event.inputs.version }}
     runs-on: ubuntu-latest
     steps:
